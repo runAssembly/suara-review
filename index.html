@@ -4,8 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%231A1520'/%3E%3Cg fill='none' stroke='%23FF7A46' stroke-linecap='round' transform='translate(256 358)'%3E%3Cpath d='M -46 0 A 46 46 0 0 1 46 0' stroke-width='34'/%3E%3Cpath d='M -104 0 A 104 104 0 0 1 104 0' stroke-width='30'/%3E%3Cpath d='M -160 0 A 160 160 0 0 1 160 0' stroke-width='26'/%3E%3Cpath d='M -214 0 A 214 214 0 0 1 214 0' stroke-width='22'/%3E%3C/g%3E%3C/svg%3E">
-<title>Suara — your business, posting every day</title>
-<meta name="description" content="Tell Suara about your business once. It writes and designs your social media every week. RM199 a month.">
+<!-- BUILDSTAMP site-copy-refusal-v1 -->
+<title>Suara — a week of posts, and it never makes things up</title>
+<meta name="description" content="Suara writes and designs a week of posts for your shop — and refuses to write anything you did not tell it. Bahasa Melayu and English.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -303,6 +304,22 @@
              letter-spacing:.1em;text-transform:uppercase;color:#8A6524}
   .foot-base span:last-child{margin-left:auto}
   @media(max-width:720px){.foot-social{margin-left:0}.foot-base span:last-child{margin-left:0}}
+
+.gate-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:34px;text-align:left}
+.gate-card{border-radius:18px;padding:20px 20px 22px;background:#fff;border:1px solid rgba(26,21,32,.09);
+  box-shadow:0 14px 34px -26px rgba(26,21,32,.6)}
+.gate-no{background:#FFF6F2;border-color:rgba(226,74,40,.26)}
+.gate-yes{background:#F1F7F2;border-color:rgba(47,107,61,.24)}
+.gate-tag{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  color:#B23A17;background:#F6D9CD;border-radius:99px;padding:4px 10px;margin-bottom:12px}
+.gate-tag-ok{color:#2F6B3D;background:#DCEBDF}
+.gate-quote{font-size:17px;line-height:1.35;font-weight:700;letter-spacing:-.015em;margin:0 0 8px}
+.gate-no .gate-quote{color:#7A2E14;text-decoration:line-through;text-decoration-color:rgba(226,74,40,.55);
+  text-decoration-thickness:2px}
+.gate-yes .gate-quote{color:#24402A}
+.gate-why{font-size:13.5px;line-height:1.5;color:#6B6270;margin:0}
+.gate-foot{max-width:640px;margin:30px auto 0;font-size:15px;line-height:1.6;color:#6B6270}
+.gate-foot b{color:#1A1520}
 </style>
 </head>
 <body>
@@ -330,7 +347,7 @@
       </a>
       <div class="nav-mid">
         <a href="#how">How it works</a>
-        <a href="#included">What you get</a>
+        <a href="#gate">What it won't do</a><a href="#included">What you get</a>
         <a href="#pricing">Pricing</a>
       </div>
       <div class="nav-right">
@@ -340,11 +357,11 @@
     </nav>
 
     <div class="hero-body">
-      <h1>Your business, <em>posting every day.</em></h1>
-      <p class="hero-sub">Tell Suara what you do, once. It writes and designs your posts every week — you just say yes.</p>
+      <h1>A week of posts.<br><em>Nothing you didn&rsquo;t say.</em></h1>
+      <p class="hero-sub">Tell Suara about your shop once. It writes and designs your week &mdash; and it will not claim anything you never told it. In Bahasa Melayu, English, or both.</p>
 
       <div class="glass">
-        <p>We're a bakery in Bangsar — sourdough and custom cakes, mostly young families. We want more weekend pre-orders<span class="caret"></span></p>
+        <p>Kedai kopi in Bangsar. Kopi O gau, roti bakar kaya, nasi lemak bungkus. Mostly office workers before 9<span class="caret"></span></p>
         <button class="glass-upload" aria-label="Upload your logo or photos">
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
@@ -369,7 +386,7 @@
       <div class="card c1 rise">
         <div class="card-body">
           <div class="bubble"><b>Suara</b>What does your business do, and who buys from you?</div>
-          <div class="bubble me">We're a bakery in Bangsar. Sourdough, custom cakes. Mostly young families.</div>
+          <div class="bubble me">Kedai kopi in Bangsar. Kopi O gau, roti bakar, nasi lemak bungkus.</div>
           <div class="bubble"><b>Suara</b>Got it. What should we never post about?</div>
         </div>
         <h3>1 · Tell it about your business</h3>
@@ -380,7 +397,7 @@
             <div class="post">
               <div class="post-img"><img src="media/posts/p1.jpg" alt="">
                 <span class="post-badge"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/></svg></span></div>
-              <div class="post-cap"><b>Fresh sourdough, 8am daily</b>
+              <div class="post-cap"><b>Kopi O gau — RM4.50, thick and black</b>
                 <div class="post-meta"><span><svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 1 0-7.8 7.8l8.8 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8z"/></svg>124</span>
                 <span><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.8 8.8 0 0 1-3.8-.9L3 20.5l1.5-4.2A8.4 8.4 0 1 1 21 11.5z"/></svg>9</span></div></div>
             </div>
@@ -412,7 +429,7 @@
       <div class="card c3 rise">
         <div class="card-body">
           <div class="day"><span class="dot"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="9" r="1.6"/><path d="M21 15l-5-5-9 9"/></svg></span>
-            <span>Monday<small>Sourdough restock</small></span><span class="kind">Post</span><span class="tick">✓</span></div>
+            <span>Monday<small>Kopi O gau</small></span><span class="kind">Post</span><span class="tick">✓</span></div>
           <div class="day"><span class="dot"><svg viewBox="0 0 24 24"><rect x="7" y="3" width="14" height="14" rx="3"/><path d="M3 7v11a3 3 0 0 0 3 3h11"/></svg></span>
             <span>Wednesday<small>Cake of the week</small></span><span class="kind">Carousel</span><span class="tick">✓</span></div>
           <div class="day pending"><span class="dot"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke-dasharray="4 3"/></svg></span>
@@ -430,13 +447,13 @@
   <div class="wrap centered">
     <div class="rise">
       <p class="eyebrow">What you get</p>
-      <h2>Everything for your feed. Nothing you won't use.</h2>
+      <h2>What you get, and what it refuses to do.</h2>
     </div>
     <div class="feat">
       <div class="feat-item rise"><div class="feat-ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="9" r="1.4"/><path d="M21 15l-5-5-9 9"/></svg></div><h5>20+ posts a month</h5><p>Images, carousels and captions, ready to go out.</p></div>
       <div class="feat-item rise"><div class="feat-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke-dasharray="4 3"/><circle cx="12" cy="12" r="3.4"/></svg></div><h5>Stories included</h5><p>Sized for Instagram, not cropped from a square.</p></div>
       <div class="feat-item rise"><div class="feat-ico"><svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.2 6.1L12 16.8 6.6 19.7l1.2-6.1L3.3 9.4l6.1-.8z"/></svg></div><h5>Your brand, locked in</h5><p>Logo, colours, fonts and tone set once and applied to everything.</p></div>
-      <div class="feat-item rise"><div class="feat-ico"><svg viewBox="0 0 24 24"><path d="M4 6h10M9 4v2c0 4-2 7-5 8"/><path d="M7 12c1.5 2.5 3.5 4 6 5"/><path d="M13 20l4-9 4 9M14.6 17h4.8"/></svg></div><h5>Your language</h5><p>Bahasa Melayu, English, or both in the same post.</p></div>
+      <div class="feat-item rise"><div class="feat-ico"><svg viewBox="0 0 24 24"><path d="M4 6h10M9 4v2c0 4-2 7-5 8"/><path d="M7 12c1.5 2.5 3.5 4 6 5"/><path d="M13 20l4-9 4 9M14.6 17h4.8"/></svg></div><h5>Bahasa Melayu, properly</h5><p>Not translated English. Written in Malay, or English, or both in the same post &mdash; the way your customers actually read.</p></div>
       <div class="feat-item rise"><div class="feat-ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/><path d="M8.5 14.5l2 2 4-4"/></svg></div><h5>A calendar you approve</h5><p>See the whole week and say yes from your phone.</p></div>
       <div class="feat-item rise"><div class="feat-ico"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.8 8.8 0 0 1-3.8-.9L3 20.5l1.5-4.2A8.4 8.4 0 1 1 21 11.5z"/></svg></div><h5>Changes by just asking</h5><p>"Make it shorter." "Less pink." No forms, no revision rounds.</p></div>
     </div>
@@ -509,6 +526,50 @@
   </div>
 </section>
 
+
+<!-- ⭐⭐⭐ THE SECTION THAT WAS MISSING, AND IT IS THE ONLY ONE A COMPETITOR CANNOT COPY THIS WEEK.
+     Researched 21 Aug: TEN AI social tools, not one verifies a factual claim. Canva states in
+     writing it gives no guarantee the text is cleared for use. Buffer names hallucination as a
+     known failure mode. Ocoya markets the BYPASS. And their own shop windows prove it — Ocoya's
+     homepage hero invents "made with fresh ingredients", Kontenin turned "promo mie ayam senin"
+     into "secret broth recipe". Predis captures your tone but cannot know a kopitiam is not halal
+     certified.
+     Everything else on this page is an argument Predis wins at RM85. This is the argument nobody
+     else can make, and it was nowhere on the site. -->
+<section id="gate" style="padding-top:0">
+  <div class="wrap centered">
+    <div class="rise">
+      <p class="eyebrow">The part nobody else does</p>
+      <h2>It would rather write nothing<br>than write something you didn&rsquo;t say.</h2>
+      <p class="lede">Every other tool writes whatever reads well. Ours only writes what you told it &mdash;
+        and everything it writes can be traced back to the answer it came from.</p>
+    </div>
+
+    <div class="gate-grid rise">
+      <div class="gate-card gate-no">
+        <span class="gate-tag">Blocked</span>
+        <p class="gate-quote">&ldquo;Our halal-certified kitchen&hellip;&rdquo;</p>
+        <p class="gate-why">You never said you are certified. It will not say it either &mdash; not
+          softened, not implied. Blocked.</p>
+      </div>
+      <div class="gate-card gate-no">
+        <span class="gate-tag">Blocked</span>
+        <p class="gate-quote">&ldquo;Best kopitiam in KL&rdquo;</p>
+        <p class="gate-why">Nobody can prove that, so it does not go out with your name on it.</p>
+      </div>
+      <div class="gate-card gate-yes">
+        <span class="gate-tag gate-tag-ok">Allowed</span>
+        <p class="gate-quote">&ldquo;The uncle remembers how you take it.&rdquo;</p>
+        <p class="gate-why">Because you pasted that review. Quoted exactly, never tidied up.</p>
+      </div>
+    </div>
+
+    <p class="gate-foot rise">And it notices things a tool would not. Merdeka falls on a Monday this year.
+      If you close Mondays, it will not write &ldquo;come celebrate&rdquo; &mdash; it tells you the clash
+      instead. <b>That noticing is the job. Anyone can write a caption.</b></p>
+  </div>
+</section>
+
 <footer id="start">
   <div class="foot-panel rise">
     <div class="foot-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
@@ -521,7 +582,7 @@
   </div>
   <div class="foot-bar">
     <div class="foot-col"><b>Product</b>
-      <a href="#how">How it works</a><a href="#included">What you get</a>
+      <a href="#how">How it works</a><a href="#gate">What it won't do</a><a href="#included">What you get</a>
       <a href="#pricing">Pricing</a><a href="#start">Start free</a></div>
     <div class="foot-col"><b>Company</b>
       <a href="#">About</a><a href="#">Partners</a><a href="#">Careers</a><a href="#">Contact</a></div>
